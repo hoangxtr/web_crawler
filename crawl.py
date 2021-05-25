@@ -7,7 +7,7 @@ def login_fb(chrome):
     password = chrome.find_element_by_id('pass')
 
     email.send_keys("hcmut232k@gmail.com")
-    password.send_keys("hoangpr023\n")
+    password.send_keys("password\n") 
 
 chrome_options = webdriver.chrome.options.Options()
 chrome_options.add_argument("--disable-popup-blocking")
